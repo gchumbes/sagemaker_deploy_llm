@@ -30,7 +30,7 @@ Llama-3.2-1B-Instruct/
 2. Comprimir el contenido del modelo (incluyendo `code/`) en un archivo `.tar.gz`.
 3. Subir este archivo a un bucket de Amazon S3:
    ```bash
-   aws s3 cp modelV4_Base.tar.gz s3://your-bucket-name/
+   aws s3 cp modelV4_Base.tar.gz s3://test-bucket-llm-local/
    ```
 4. Ejecutar el script `deploy.py` (opcional) desde tu entorno local o un notebook para desplegar el modelo en SageMaker. Este script **no debe incluirse en el `.tar.gz`**.
 

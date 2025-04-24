@@ -1,0 +1,7 @@
+torch>=2.3.0
+transformers>=4.48.0
+sentencepiece>=0.2.0  # Necesario para el tokenizer de LLaMA 3
+safetensors>=0.4.0    # Para cargar los pesos del modelo
+accelerate>=0.29.0    # Optimización de inferencia
+protobuf>=3.20.0      # Dependencia indirecta de transformers
+sagemaker-huggingface-inference-toolkit>=2.5.0
